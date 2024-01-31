@@ -13,7 +13,7 @@ services:
     environment:
       POSTGRES_DB: "hapi"
       POSTGRES_USER: "admin"
-      POSTGRES_PASSWORD:docker "admin"
+      POSTGRES_PASSWORD: "admin"
     volumes:
       - hapi-fhir-postgres:/var/lib/postgresql/data
 volumes:
